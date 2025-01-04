@@ -1,0 +1,46 @@
+name: EconomyTP
+version: 1.0
+main: org.Samy.economyTP.EconomyTP
+api-version: 1.18
+depend: [EconomyCore]
+commands:
+  tps:
+    description: Muestra la cantidad de cargas de TP en tu inventario.
+    usage: /<command>
+    aliases: [tpbalance, tpinv]
+
+  comprartp:
+    description: Permite comprar una carga de TP si tienes suficiente balance.
+    usage: /<command>
+    aliases: [buytp, tpadd]
+
+  tpr:
+    description: Envía una solicitud para teletransportarse a las coordenadas de otro jugador.
+    usage: /<command> <nombreJugador>
+    aliases: [tprequest]
+
+  tpa:
+    description: Acepta una solicitud de teletransporte.
+    usage: /<command> <nombreJugador>
+    aliases: [tpaccept]
+
+  tpn:
+    description: Rechaza y elimina una solicitud de teletransporte.
+    usage: /<command> <nombreJugador>
+    aliases: [tpno, tpreject]
+
+  tpset:
+    description: Establece el precio para agregar una carga de TP al inventario.
+    usage: /<command> <precio>
+    permission: economytp.admin
+    aliases: [tpbalance]
+
+  tphelp:
+    description: Muestra la guía de cómo usar los comandos del plugin.
+    usage: /<command>
+    aliases: [tpayuda, ayudatp]
+
+permissions:
+  economytp.admin:
+    description: Permite gestionar el precio de las cargas de TP.
+
