@@ -4,10 +4,10 @@ main: org.Samy.economyTP.EconomyTP
 api-version: 1.18
 depend: [EconomyCore]
 commands:
-  tps:
+  tpcheck:
     description: Muestra la cantidad de cargas de TP en tu inventario.
     usage: /<command>
-    aliases: [tpbalance, tpinv]
+    aliases: [tpbalance, tpcheck]
 
   comprartp:
     description: Permite comprar una carga de TP si tienes suficiente balance.

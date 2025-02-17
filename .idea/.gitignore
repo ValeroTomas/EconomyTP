@@ -6,3 +6,25 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+/EconomyCore
+# Archivos específicos de IntelliJ IDEA
+.idea/
+*.iml
+# Archivos de salida
+build/
+# Archivos de Gradle
+.gradle/
+!gradle-wrapper.jar
+gradle-app.setting
+# Configuraciones del sistema operativo
+.DS_Store
+Thumbs.db
+# Archivos de logs y temporales
+*.log
+*.tmp
+# Archivos de configuración específicos del desarrollador
+*.env
+*.local
+*.properties
+# Archivos de Git
+.gitignore

@@ -6,11 +6,11 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class CommandTPS implements CommandExecutor {
+public class CommandTPCheck implements CommandExecutor {
 
     private EconomyTP plugin;
 
-    public CommandTPS(EconomyTP plugin) {
+    public CommandTPCheck(EconomyTP plugin) {
         this.plugin = plugin;
     }
 

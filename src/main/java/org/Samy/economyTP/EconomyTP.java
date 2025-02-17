@@ -20,11 +20,8 @@ public class EconomyTP extends JavaPlugin {
         saveDefaultConfig();
 
         // Registrar comandos
-        getCommand("tps").setExecutor(new CommandTPS(this));
+        getCommand("tps").setExecutor(new CommandTPCheck(this));
         getCommand("comprartp").setExecutor(new CommandComprarTP(this));
-        getCommand("tpr").setExecutor(new CommandTPR(this));
-        getCommand("tpa").setExecutor(new CommandTPA(this));
-        getCommand("tpn").setExecutor(new CommandTPN(this));
         getCommand("tpset").setExecutor(new CommandTPSet(this));
         getCommand("tphelp").setExecutor(new CommandTPHelp());
 
