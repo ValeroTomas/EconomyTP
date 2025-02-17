@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.UUID;
 
 public class EconomyTP extends JavaPlugin {
-
+/// cambio en el economy TP
     private Map<UUID, Integer> tpsInventory = new HashMap<>();
     private double tpPrice = 10.0; // Precio por carga de TP, se puede configurar con /tpset
     private EconomyCore economyCore;
